@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONFINERIE FREQUENTER AU GHANA</title>
+    <link rel="stylesheet" href="styles.css">
+
+<link rel="icon" href="img/ST167.jpg" type="image/jpeg"> 
+    <style>
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f7f7f7;
+        }
+        /* Navbar Styles */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+        }
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        .navbar-nav {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo{
+              width: 40px; /* taille du logo */
+    height: 40px; /* taille du logo */
+    margin-right: 10px;
+          
+        }
+        .navbar-nav li {
+            margin-right: 20px;
+        }
+        .navbar-nav a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        .navbar-nav a:hover {
+            color: #ccc;
+        }
+        /* Hamburger Menu Styles */
+        .hamburger {
+            display: none;
+            cursor: pointer;
+        }
+        .hamburger span {
+            display: block;
+            width: 30px;
+            height: 2px;
+            background-color: #fff;
+            margin-bottom: 5px;
+            transition: transform 0.2s ease;
+        }
+        .hamburger span:first-child {
+            transform: translateY(-10px);
+        }
+        .hamburger span:last-child {
+            transform: translateY(10px);
+        }
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .navbar-nav {
+                display: none;
+            }
+            .hamburger {
+                display: block;
+            }
+        }
+        @media (max-width: 480px) {
+            .navbar-brand {
+                font-size: 18px;
+            }
+        }
+        /* Animated Hamburger Menu Styles */
+        .hamburger.active span:first-child {
+            transform: translateY(0) rotate(45deg);
+        }
+        .hamburger.active span:last-child {
+            transform: translateY(0) rotate(-45deg);
+        }
+        .navbar-nav.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-brand">
+
+         
+        
+            <img src="img/ST167.JPG" alt="Logo"class="logo">
+        
+    </div>
+        <ul class="navbar-nav">
+             <li><a href="#home">Home</a></li>
+                 <li><a href="#about">A propos</a></li>
+               <li><a href="#services">Services</a></li>
+               
+                <li><a href="#gallery">Notre galerie</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <!-- JavaScript for animated hamburger menu -->
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navbarNav = document.querySelector('.navbar-nav');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navbarNav.classList.toggle('active');
+        });
+    </script>
+
+    <!-- Header -->
+  
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero">
+            <h1><span>CONFINERIE</span> <br>FREQUENTER AU GHANA TODAY</a></h1>
+            
+        </div>
+    </section>
+    <section id="about">
+        <h1>A propos</h1>
+        <p >CONFINERIE FREQUENTER AU GHANA : votre guide pour étudier et vivre au Ghana. Nous offrons une gamme de services pour vous aider à atteindre vos objectifs, notamment des cours de langue, des programmes d'enseignement primaire et secondaire, des études universitaires, des formations professionnelles, des conseils pour les formalités administratives et des solutions d'hébergement. . Avec CONFINERIE FREQUENTER AU GHANA votre avenir se prepare aujourd'hui.
+</p>
+        <iframe width="100%" height="315" src="VID.mp4" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="services">
+        <h1>Services</h1>
+        <div class="service">
+            <h1> 1</h1>
+              <h1 style="background-color: green">Opter pour une formation au Ghana constitue une opportunite particulierement captivante, en particulier pour les etudiants desireux d'acquerir la maitrise de la langue anglaise. Le Ghana abrite un ensemble d'universites de renom, dont les diplomes jouissent d'une reconnaissance mondiale. De plus, cette experience offre aux etudiants francophones l'occasion exceptionnelle de devenir bilingues, ce qui peut considerablement renforcer leurs perspectives professionnelles</h1>
+              <span style="background-color: #ccc;">
+        </div>
+        <div class="service">
+            <h1> 2</h1>
+             <h1 style="background-color: blue;">
+                    Nous mettons a votre dispositions des services efficaces afin de faciliter votre procedure. Une lettre de pre inscription pour l'ecole de langue que vous aurez choisit parmis les differents ecoles avec qui nous sommes partenaire.
+                    Une procedure simple et rapide pour la traduction de votre BAC.
+                    Un service de qualite pour vous accompagner lors de votre sejour au GHANA.
+</h1>
+            <span style="background-color: #ccc;"></span>
+        </div>
+        <div class="service">
+            <h1> 3</h1>
+              <h1 style="background-color: yellow;">Le prix des logements au Ghana varient selon le proprietaire. Le Ghana dispose de plusieurs moyens de logement pour les etudiants a des prix tres affordable. Les etudiants francophone qui souhaiteraient s'installer au Ghana pour les etudes ont a leur dispositions des hostels qui sont les plus affordable, comfortable et certains hostels couvrent meme les factures tel que l'eau, le courant et meme prennent en charge  le gaz pour mieux amener l'etudiant a se concentrer sur ses cours .
+                Ensuite il y a des appartements que l'on paye par annee mais qui aide aussi les etudiants a etre relax et a ne pas se preocuper du loyer a la fin de chaque semestre</h1>
+            <span style="background-color: #999;"></span>
+        </div>
+    </section>
+
+
+
+
+<div class="w3-container" style="padding:128px 16px" id="work"id="gallery">
+  <h1 class="w3-center">Notre galerie</h1>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="./img/7.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="./img/I1.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="./img/08.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="./img/69.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="./img/O1.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="./img/J72.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="./img/E05.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="./img/E02.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+    </div>
+
+
+    <div class="w3-col l3 m6">
+      <img src="./img/i3.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+    </div>
+
+
+    <div class="w3-col l3 m6">
+      <img src="./img/9.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="./img/I0.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+    </div>
+
+  </div>
+</div>
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+
+
+
+
+
+
+<h1 style="text-align:center"id="team"> Team</h1>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="./img/07.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Mr.Ndombi-D'otala</h2>
+        <p class="title">Agents immobilliers</p>
+        
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="./img/DX57.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mr.Tsitsaba</h2>
+        <p class="title">Charge d'orientation</p>
+        
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="./img/RS7.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Mlle.Beatrice Ibomon</h2>
+        <p class="title">Charge de communication</p>
+       
+        <p><button class="button" >Contact</button ></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <img src="./img/28.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mr.Essongue</h2>
+        <p class="title">Responsable administratif</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" value="Send Message">
+        </form>
+        <p>Address: Accra Ghana</p>
+        <p>Phone:  +233 241531994</p>
+        <p>Phone:  <a href="https://wa.me/+905065229531" target="_blank">+90 506 522 95 31</a></p>
+        <p>Email: Dannyconfi020@gmail.com<</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 CONFINERIE NEVER END</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
